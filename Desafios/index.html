@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi perfil</title>
+</head>
+<body>
+    <div>
+
+        <h1>Mi perfil personal</h1>  
+       
+        <p>Mi nombres es Lucia Larrosa, tengo 26 años, actualmente trabajo en un call center vendiendo tarjetas de credidto del Banco Galicia.</p> 
+       
+    
+       <img src="perfil.jpeg" alt="Foto perfil" width="140" height="150">
+    
+       <h2>Datos personales</h2>
+       <ul>
+        <li>Edad: 26</li>
+        <li>Nombre: Lucia Gimena</li>
+        <li>Apellido: Larrosa</li>
+        <li>Email: soylucha@gmail.com</li>    
+       </ul>
+
+       <form>
+        <h3>Ingrese sus datos y me contactare con usted</h3>
+
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ingrese su apellido" required>            
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Ingrese su email" required>            
+        </div>
+        <div>
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono" placeholder="Ingrese su telefono" required>            
+        </div>
+        <div>
+            <select name="edad" id="edad">
+                <option value="">Seleccione rango de edad</option>
+                <option value="menos17">17 o menos</option>
+                <option value="1825">18 a 25</option>
+                <option value="16mas">26 o más</option>
+            </select>
+        </div>
+
+        <input type="checkbox" id="bases" required>
+        <label for="bases">Acepto las bases y condiciones</label>
+
+        <input type="submit" value="Enviar">
+
+       </form>
+
+    </div>
+
+    
+</body>
+</html>
