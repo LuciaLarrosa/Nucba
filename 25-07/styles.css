@@ -1,0 +1,27 @@
+
+/*
+/*Selector de etiqueta*/
+/*h1 {
+    color:;
+}
+
+/*Selector universal*/
+/*{
+    color:;
+}*/
+
+/*con id*/
+/**{
+    border:1px solid;
+}*/
+
+
+#titulo-principal {
+
+    color:green;
+}
+/*con class*/
+.parrafo{
+    color:blueviolet;
+    text-align: center;
+}
