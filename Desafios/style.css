@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+.fondo{
+    background-image: url(https://images.unsplash.com/photo-1612287793042-4bece204801e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG9zfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    
+}
+
+.titulo{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+
+}
+
+.parrafo{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imagen{
+    display: flex;
+    border: solid; 
+    
+}
+
+.tituloH2{
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+}
+
+.lista{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    list-style-type: disc;
+}
+
+.tituloH3{
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+}
+
