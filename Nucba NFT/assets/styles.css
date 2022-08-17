@@ -275,3 +275,220 @@ main
     font-weight: 300;
     color: var(--text-gray);
   }
+
+  #discover
+  {
+    padding: 70px 0;
+    max-width: 1200px;
+
+  }
+  .discoverInfo
+  {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+
+
+  .discoverInfo h2{
+    font-size: 32px;
+    width: 45%;
+    font-weight: 800;
+  }
+
+  .discoverText
+  {
+    display: flex;
+    width: 45%;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .discoverText p
+  {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-gray);
+  }
+
+  .discoverText a
+  {
+    color: var(--text-white);
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .discoverCards
+  {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .discoverCards img{
+    width: 30%;
+  }
+
+  #products
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  #products h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+
+  .categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+  }
+
+  .category{
+    background: var(--btn-bg);
+    border: none;
+    padding: 10px 15px;
+    color: var(--bg-white);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .active{
+    background: var(--primary);
+  }
+
+  .productContainer
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 40px 0;
+    max-width: 1200px;
+  }
+
+  .product{
+    background: var(--secondary);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .productInfo
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;    
+  }
+
+  .productTop, .productMid,  .productBot
+  { 
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+
+  .productTop h3{
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  .productTop p, .productUser p{
+    color: var(--text-gray);
+    font-weight: 400;
+    font-size: 16px;
+
+  }
+
+  .productUser{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .productMid span{
+    font-weight: 800;
+  }
+
+  .productOffer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .offerTime{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .offerTime img{
+    width: 20px;
+  }
+
+  .btnAdd{
+    background: var(--primary);
+    border: none;
+    padding: 10px 33px;
+    color: var(--text-white);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  footer {
+    background: var(--background);
+    color: var(--bg-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+  }
+  
+  footer a,
+  footer p{
+    color: var(--text-gray);
+    font-weight: 300;
+    font-size: 18px;
+  }
+  
+  footer a:hover{
+    color: var(--text-white);
+  }
+  
+  footer span{
+    font-weight: 800;
+  }
+  
+  .footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+
+
+
