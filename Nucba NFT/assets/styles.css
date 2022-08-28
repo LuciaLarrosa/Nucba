@@ -109,13 +109,20 @@ main
     width: 50%;    
 }
 
-.heroInfo h1 
-{
-    font-size: 48px;
-    width: 80%;
-    min-width: 500px;
-    font-weight: 800;
-    color: var(--text-white);
+.heroInfo h1 {
+  font-size: 48px;
+  width: 80%;
+  min-width: 500px;
+  font-weight: 800;
+  background: linear-gradient(to top, #30cfd0, #c43ad6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heroInfo p{
+  font-size: 14px;
+  width: 70%;
+  color: var(--text-gray);
 }
 
 .heroInfo p > span
@@ -143,7 +150,7 @@ main
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20;
+    gap: 20px;
 }
 
 .heroCardInfo
@@ -282,6 +289,7 @@ main
     max-width: 1200px;
 
   }
+
   .discoverInfo
   {
     display: flex;
@@ -317,6 +325,10 @@ main
     color: var(--text-white);
     font-weight: 600;
     text-decoration: underline;
+  }
+
+  .discoverText a:hover {
+    color: var(--text-gray);
   }
 
   .discoverCards
@@ -370,7 +382,7 @@ main
     background: var(--primary);
   }
 
-  .productContainer
+  .productsContainer
   {
     display: flex;
     flex-wrap: wrap;
