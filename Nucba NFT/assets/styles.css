@@ -611,18 +611,18 @@ main
   border: 0.5px solid var(--electric);
 }
 
-.cart-total{
+.cartTotal{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.cart-total p{
+.cartTotal p{
   color: var(--text-white);
   font-weight: 700;
 }
 
-.cart-total span{
+.cartTotal span{
   color: var(--text-white);
   font-weight: 400;
   font-size: 18px;
