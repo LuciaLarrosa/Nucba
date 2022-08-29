@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nucba - NFT</title>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
 </head>
 <body>
     <header>
         <img src="./assets/img/logo.png" alt="LogoNucba" class="logo">
         <nav class="navbar">
+          <label for="menu-toggle" class="menu-label">
+            <img src="./assets/img/menu.png" alt="icono menu" class="menu-icon" />
+          </label>
+          <input type="checkbox" id="menu-toggle" />
             <ul class="navbarList">
                 <li>
                     <a href="#">Home</a>
@@ -28,7 +33,90 @@
                     <a href="#">Contactenos</a>
                 </li>
             </ul>
-            <img src="./assets/img/cart-icon.svg" alt="carrito de comrpas" class="carrito">
+            <label for="cart-toggle" class="cart-label">
+              <img
+                src="./assets/img/cart-icon.svg"
+                alt="Carrito de compras"
+                class="cart-icon"
+              />
+            </label>
+            <input type="checkbox" id="cart-toggle" />
+            <div class="cart">
+              <h2>Tus NFTs</h2>
+              <div class="cart-item">
+                <img src="./assets/img/cart/cart-img.png" alt="unPoducto">
+                <div class="item-info">
+                  <h3 class="item-title">Messi</h3>
+                  <p class="item-bid">Current Bid</p>
+                  <span class="item-price">4.8 ETH</span>
+                </div>
+                <div class="item-handler">
+                  <span class="quantity-handler down">-</span>
+                  <span class="item-quantity">1</span>
+                  <span class="quantity-handler up">+</span>
+                </div>
+              </div>
+              <div class="cart-item">
+                <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                <div class="item-info">
+                  <h3 class="item-title">Messi</h3>
+                  <p class="item-bid">Current Bid</p>
+                  <span class="item-price">4.8 ETH</span>
+                </div>
+                <div class="item-handler">
+                  <span class="quantity-handler down">-</span>
+                  <span class="item-quantity">1</span>
+                  <span class="quantity-handler up">+</span>
+                </div>
+              </div>
+              <div class="cart-item">
+                <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                <div class="item-info">
+                  <h3 class="item-title">Messi</h3>
+                  <p class="item-bid">Current Bid</p>
+                  <span class="item-price">4.8 ETH</span>
+                </div>
+                <div class="item-handler">
+                  <span class="quantity-handler down">-</span>
+                  <span class="item-quantity">1</span>
+                  <span class="quantity-handler up">+</span>
+                </div>
+              </div>
+              <div class="cart-item">
+                <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                <div class="item-info">
+                  <h3 class="item-title">Messi</h3>
+                  <p class="item-bid">Current Bid</p>
+                  <span class="item-price">4.8 ETH</span>
+                </div>
+                <div class="item-handler">
+                  <span class="quantity-handler down">-</span>
+                  <span class="item-quantity">1</span>
+                  <span class="quantity-handler up">+</span>
+                </div>
+              </div>
+              <div class="cart-item">
+                <img src="./assets/img/cart/cart-img.png" alt="un producto">
+                <div class="item-info">
+                  <h3 class="item-title">Messi</h3>
+                  <p class="item-bid">Current Bid</p>
+                  <span class="item-price">4.8 ETH</span>
+                </div>
+                <div class="item-handler">
+                  <span class="quantity-handler down">-</span>
+                  <span class="item-quantity">1</span>
+                  <span class="quantity-handler up">+</span>
+                </div>
+              </div>
+    
+              <span class="divider"></span>
+    
+              <div class="cartTotal">
+                <p>Total: </p>
+                <span>18.3 ETH</span>
+              </div>
+              <button class="btnAdd">Comprar</button>
+            </div>
         </nav>
     </header>
     <main>
@@ -98,7 +186,9 @@
                 <h2>Descubre una nueva era de colecciones</h2>
                 <div class="discoverText">
                     <p>
-                        texto texto
+                      Tendras la oportunidad de coleccionar NFTs sobre distintos
+                      tópicos, y de este modo acceder a beneficios exclusivos por tomar
+                      parte de dicho club. Ej: "Team Star Wars"
                     </p>
                     <a href="#">Empezar ahora</a>
     
@@ -215,78 +305,78 @@
 
                 <div class="product">
                     <img src="./assets/img/products/cutemonkey.png" alt="cutemonkey" />
-                    <div class="product-info">
-                      <div class="product-top">
+                    <div class="productInfo">
+                      <div class="productTop">
                         <h3>Cutemonkey</h3>
                         <p>Current Bid</p>
                       </div>
-                      <div class="product-mid">
-                        <div class="product-user">
+                      <div class="productMid">
+                        <div class="productUser">
                           <img src="./assets/img/user.png" alt="User" />
                           <p>@urabt1</p>
                         </div>
                         <span>100 eTH</span>
                       </div>
-                      <div class="product-bot">
-                        <div class="product-offer">
-                          <div class="offer-time">
+                      <div class="productBot">
+                        <div class="productOffer">
+                          <div class="offerTime">
                             <img src="./assets/img/fire.png" alt="Fire" />
                             <p>12:59:59</p>
                           </div>
                         </div>
-                        <button class="btn-add">Add</button>
+                        <button class="btnAdd">Add</button>
                       </div>
                     </div>
                   </div>
         
                   <div class="product">
                     <img src="./assets/img/products/cuteshiba.png" alt="cuteshiba" />
-                    <div class="product-info">
-                      <div class="product-top">
+                    <div class="productInfo">
+                      <div class="productTop">
                         <h3>Cuteshiba</h3>
                         <p>Current Bid</p>
                       </div>
-                      <div class="product-mid">
-                        <div class="product-user">
+                      <div class="productMid">
+                        <div class="productUser">
                           <img src="./assets/img/user.png" alt="User" />
                           <p>@Noche</p>
                         </div>
                         <span>32.2 eTH</span>
                       </div>
-                      <div class="product-bot">
-                        <div class="product-offer">
-                          <div class="offer-time">
+                      <div class="productBot">
+                        <div class="productOffer">
+                          <div class="offerTime">
                             <img src="./assets/img/fire.png" alt="Fire" />
                             <p>03:21:30</p>
                           </div>
                         </div>
-                        <button class="btn-add">Add</button>
+                        <button class="btnAdd">Add</button>
                       </div>
                     </div>
                   </div>
         
                   <div class="product">
                     <img src="./assets/img/products/toretto.png" alt="toretto" />
-                    <div class="product-info">
-                      <div class="product-top">
+                    <div class="productInfo">
+                      <div class="productTop">
                         <h3>Toretto</h3>
                         <p>Current Bid</p>
                       </div>
-                      <div class="product-mid">
-                        <div class="product-user">
+                      <div class="productMid">
+                        <div class="productUser">
                           <img src="./assets/img/user.png" alt="User" />
                           <p>@urabt1</p>
                         </div>
                         <span>21.23 eTH</span>
                       </div>
-                      <div class="product-bot">
-                        <div class="product-offer">
-                          <div class="offer-time">
+                      <div class="productBot">
+                        <div class="productOffer">
+                          <div class="offerTime">
                             <img src="./assets/img/fire.png" alt="Fire" />
                             <p>02:12:59</p>
                           </div>
                         </div>
-                        <button class="btn-add">Add</button>
+                        <button class="btnAdd">Add</button>
                       </div>
                     </div>
                   </div>
