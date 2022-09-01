@@ -47,85 +47,108 @@ body
     background-color: rgb(120, 200, 247);
   
 }
+/*main*/
+
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 #hero
 {
-    margin-top: 65px;
+    display: flex;    
+    justify-content: space-around;
     padding: 70px 0;
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    width: 90%;    
 }
 
 .heroInfo
 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 0px 30px;   
-}
-
-.heroInfo a
-{     
-    color:black;
-    border: transparent 1px;    
-    border-radius: 10px;
-    text-align: center;
-    font-size: 19px;    
-    background: rgb(87, 3, 121);
-
-   
-}
-
-.heroInfo li
-{
-    display: flex;
-    align-content: space-between;
-}
-
-#hero img{
-    margin: 0px 20px;
-    height: 300px;
-    border: solid 4px;
-    border-radius: 30px;
-    color: #c20aa96e;
-}
-
-.heroInfo h1
-{
-    font-family: 'Dancing Script', cursive;
-    font-weight: 800;
-    font-size: 48px;
-    width: 80%;
-    min-width: 500px;    
-    color: black; 
-    
-}
-
-.heroInfo p
-{
-    font-weight: 800;
-    font-size: 20px;
-    display: flex;
-    align-items: baseline;
     justify-content: center;
+    gap: 40px;
+ }
+
+ .heroInfo h1
+ {
+     font-weight: 800;    
+     font-size: 80px;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Dancing Script', cursive;
+ }
+
+ .heroInfo h1 > span 
+ {    
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+    padding: 0px 30px;
+ }
+ 
+ .heroInfo p
+ {
+     font-weight: 800;
+     font-size: 25px;    
+     display: flex;     
+     justify-content: center;
+ }
+
+
+ .botones
+ {
+    display: flex;
+    gap: 30px;
+ }
+
+ .botones a
+ {
+    text-decoration: none;
+    border: 3px;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 20px;
+    font-weight: 500;    
+ }
+
+ .b-uno
+ {
+    background: linear-gradient(0deg, rgba(210,10,215,1) 11%, rgba(136,34,219,1) 100%);
+    -webkit-background-clip: border-box;
+    background-clip: border-box;     
+    color: white;
+    box-shadow: rebeccapurple 0px 8px 24px;
+ }
+
+ .b-dos
+ {
+    background: linear-gradient(0deg, rgba(210,10,215,1) 11%, rgba(136,34,219,1) 100%);
+    -webkit-background-clip:border-box;
+    background-clip: border-box; 
+    color: white;
+    box-shadow: rebeccapurple 0px 8px 24px;
+ }
+
+.alfaChoco{
+    width: 600px;
+    border-radius: 30px;
+    border: 5px solid #8000ff59;
+    box-shadow: rebeccapurple 0px 8px 24px;
 }
 
 #heroTexto
 {
-    margin-top: 20px;
-    padding: 70px 0;
-    max-width: 1200px;    
-}
-
-.info p{
     display: flex;     
-    text-align: center;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;     
+    max-width: 800px; 
     font-size: 20px;
-    font-weight: 800;
-    padding-left: 60px;   
+    padding: 40px 0px;
+    font-weight: 800;   
 }
-
 
